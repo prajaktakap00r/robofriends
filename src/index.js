@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+/* import App from './App'; */
+import Hello from './Hello'
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';    //similar to bootstrap 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <h1>Prajakta here</h1>
+    <App />  */}
+    <Hello greetings={'Hello'+ 'Prajakta'} />
   </React.StrictMode>
 );
 
