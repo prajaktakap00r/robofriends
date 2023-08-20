@@ -4,10 +4,12 @@ import './index.css';
 /* import App from './App';
 import Hello from './Hello'
 import { robots } from './robots'; 
-import Card from './card'*/
+import Card from './card'
+import CardList from './CardList';*/
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';    //similar to bootstrap 
-import CardList from './CardList';
+import RoboApp from './RoboApp';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +18,7 @@ root.render(
     <App />  
     <Hello greetings={'Hello'+ 'Prajakta'} />
     */}
-    <CardList/>
+    <RoboApp/>
     
     
   </React.StrictMode>
