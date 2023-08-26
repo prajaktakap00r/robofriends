@@ -8,7 +8,7 @@ import Card from './card'
 import CardList from './CardList';*/
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';    //similar to bootstrap 
-import RoboApp from './RoboApp';
+import RoboApp from './containers/RoboApp';
 
 
 
